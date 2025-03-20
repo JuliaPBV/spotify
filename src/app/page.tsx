@@ -1,4 +1,11 @@
-import { Home as HomeIcon, Search, Library } from "lucide-react";
+import {
+  Home as HomeIcon,
+  Search,
+  Library,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -36,50 +43,85 @@ export default function Home() {
 
           <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-2">
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
+              Hot Hits Brasil
             </a>
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
+              Top Brasil
             </a>
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
-            </a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">
-              Playlist 1
+              Favoritas
             </a>
           </nav>
         </aside>
-        <main className="flex-1 p-6">main</main>
+        <main className="flex-1 p-6">
+          <div className="flex items-center gap-4">
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronLeft />
+            </button>
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronRight />
+            </button>
+          </div>
+
+          <h1 className="font-semibold text-3xl mt-10">Good afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4">
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+            <div className="bg-white/10 rounded overflow-hidden">
+              <Image
+                src="/album.jpg"
+                width={80}
+                height={80}
+                alt="Capa Top Brasil
+            "
+              />
+            </div>
+          </div>
+        </main>
       </div>
       <footer className="bg-zinc-800 botder-t border-zinc-700 p-6">
         footer
