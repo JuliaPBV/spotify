@@ -65,60 +65,65 @@ export default function Home() {
 
           <h1 className="font-semibold text-3xl mt-10">Good afternoon</h1>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-white/10 rounded overflow-hidden">
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
-                alt="Capa Top Brasil
-            "
+                width={104}
+                height={104}
+                alt="Capa Top Brasil"
               />
+              <strong>Anti</strong>
             </div>
-            <div className="bg-white/10 rounded overflow-hidden">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
+                width={104}
+                height={104}
                 alt="Capa Top Brasil
             "
               />
+              <strong>Anti</strong>
             </div>
-            <div className="bg-white/10 rounded overflow-hidden">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
+                width={104}
+                height={104}
                 alt="Capa Top Brasil
             "
               />
+              <strong>Anti</strong>
             </div>
-            <div className="bg-white/10 rounded overflow-hidden">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
+                width={104}
+                height={104}
                 alt="Capa Top Brasil
             "
               />
+              <strong>Anti</strong>
             </div>
-            <div className="bg-white/10 rounded overflow-hidden">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
+                width={104}
+                height={104}
                 alt="Capa Top Brasil
             "
               />
+              <strong>Anti</strong>
             </div>
-            <div className="bg-white/10 rounded overflow-hidden">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
               <Image
                 src="/album.jpg"
-                width={80}
-                height={80}
+                width={104}
+                height={104}
                 alt="Capa Top Brasil
             "
               />
+              <strong>Anti</strong>
             </div>
           </div>
         </main>
